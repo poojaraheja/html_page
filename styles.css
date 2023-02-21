@@ -30,3 +30,8 @@ input {
   height: 40px;
   padding: 20px;
 }
+.middle {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
