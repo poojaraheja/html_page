@@ -43,6 +43,7 @@ input {
 
 .middle-block {
   display: flex;
-
   align-items: center;
+}
+.greenback {
 }
