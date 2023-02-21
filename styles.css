@@ -6,3 +6,7 @@
   min-height: 100%;
   z-index: -1;
 }
+.mb-3 {
+  display: flex;
+  flex-direction: row;
+}
