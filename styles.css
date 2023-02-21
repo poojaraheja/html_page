@@ -19,6 +19,15 @@ u {
   z-index: -1;
 }
 
+.navbar-brand img {
+  height: 100px;
+  width: 230px;
+}
+
+.d-flex {
+  align-items: center;
+}
+
 .footer-img {
   margin: 5px;
   margin-right: 25px;
