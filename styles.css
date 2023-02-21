@@ -63,13 +63,14 @@ input {
 
 .middle-block {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-direction: column;
 }
 
 .main {
   display: flex;
-  width: 80%;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .left {
