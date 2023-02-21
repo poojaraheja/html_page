@@ -37,12 +37,13 @@ label {
   width: 50%;
 }
 input {
-  width: 30%;
+  width: 50%;
   height: 40px;
   padding: 20px;
+}
+.form-control {
   border-radius: 40px;
 }
-
 .navbar-text {
   display: flex;
   justify-content: center;
@@ -75,4 +76,24 @@ input {
   padding: 10px;
   border-radius: 40px;
   background: #16ff00;
+}
+.text {
+  font-size: xx-large;
+  font-weight: bold;
+  color: aliceblue;
+}
+.img-box-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-box img {
+  width: 150px;
+  aspect-ratio: 1.4;
+  margin: 20px;
 }
