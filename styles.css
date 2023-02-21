@@ -45,5 +45,18 @@ input {
   display: flex;
   align-items: center;
 }
+
+.main {
+  display: flex;
+  width: 80%;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
 .greenback {
 }
