@@ -68,14 +68,15 @@ input {
 .main {
   display: flex;
   width: 80%;
+  justify-content: space-between;
 }
 
 .left {
-  width: 50%;
+  width: 40%;
 }
 
 .right {
-  width: 50%;
+  width: 40%;
 }
 .greenback {
   width: 80%;
