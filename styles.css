@@ -35,3 +35,8 @@ input {
   flex-direction: row;
   margin: 10px;
 }
+.navbar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
