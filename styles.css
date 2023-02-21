@@ -102,7 +102,7 @@ input {
 }
 
 .img-box img {
-  width: 150px;
+  width: 20%;
   aspect-ratio: 1.4;
   margin: 20px;
 }
@@ -113,4 +113,16 @@ input {
 }
 .blur {
   mix-blend-mode: hard-light;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    width: 90%;
+  }
 }
